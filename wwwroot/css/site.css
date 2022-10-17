@@ -1,0 +1,112 @@
+header {
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.logo-nicepage {
+  margin-right: 40%;
+  height: 40px;
+}
+
+.title {
+  color: #c4c4c4;
+  margin-left: 30%;
+  align-items: flex-start;
+}
+
+.iconmenu {
+  align-items: flex-end;
+  margin-left: 30%;
+  width: 20px;
+  height: 20px;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  height: 510px;
+  width: 100%;
+  padding: 5px;
+
+  background-color: #c2b7bf;
+}
+
+.section {
+  margin-top: 25px;
+  margin-left: 20%;
+  height: 15px;
+}
+
+.section-title {
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 10px;
+  color: #ffff;
+}
+
+.service {
+  font-weight: bold;
+  font-size: 50px;
+  border-bottom: 10px solid white;
+  width: 601px;
+}
+
+.section-img {
+  margin-left: 10px;
+  margin-top: 50px;
+  color: #ffff;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+.div-nossos-servicos {
+  margin-top: 50px;
+}
+
+.nossos-servicos {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #c2c3c8;
+  text-align: center;
+  margin: 2px;
+}
+
+.ajuda {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+
+.agendar {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffff;
+  background-color: #eb1725;
+}
