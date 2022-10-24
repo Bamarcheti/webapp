@@ -33,38 +33,42 @@ header {
   flex: 1;
 }
 
-article {
-  height: 510px;
-  width: 100%;
-  padding: 5px;
-
-  background-color: #c2b7bf;
+section{
+  background-image: url("../img/modelo-mulher.jpg");
+  
+  height: 700px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.section {
-  margin-top: 25px;
-  margin-left: 20%;
-  height: 15px;
+.Roboto {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .section-title {
-  font-family: 'Roboto';
-  font-size: 22px;
-  margin-left: 10px;
-  color: #ffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  width: 601;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
 }
 
 .service {
-  font-weight: bold;
-  font-size: 50px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 96px;
   border-bottom: 10px solid white;
-  width: 601px;
-}
-
-.section-img {
-  margin-left: 10px;
-  margin-top: 50px;
-  color: #ffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 301;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
 }
 
 footer {
